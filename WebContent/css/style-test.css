@@ -1,0 +1,62 @@
+@charset "EUC-KR";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+	font-family:  "Nanum Gothic";
+}
+
+/* a {
+	color: #777777;
+} */
+
+*:hover {
+	text-decoration: none !important;
+}
+
+#footer, #footer a {
+	background: #F3F3F3;
+	color: #777777 !important;
+}
+
+.border-b {
+	padding: 1px;
+	border-bottom: 1px solid;
+}
+
+#top-header {
+	font-size: 12px;
+	color: #fff !important;
+}
+
+#top-header a{
+	color: #fff !important;	
+}
+
+#main-header {
+	background-color: transparent;
+}
+
+#main-header .container {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);	
+}
+
+#main-header a {	
+	color: white;
+}
+
+#main-header #search {
+	background-color: transparent;
+	box-shadow: none
+}
+
+#main-header ul li a:hover {
+	color: #007bff;
+}
+
+#main-header .form-control {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#main-header .form-control:focus {
+	background-color: #fff;
+}
