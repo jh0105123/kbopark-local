@@ -1,10 +1,28 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
-
-<!--header 영역 -->
+<!--header 영역-->
 <%@ include file="/common/header.jsp"%>
 
-<!-- 메인영상 혹은 이미지 -->
+<!-- 메인이미지(작업중) -->
+<div class="py-5 text-center opaque-overlay"
+	style="background-image: url(<%=root %>/img/main-background.jpg);">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-md-12 text-white">
+				<h1 class="display-3 mb-4">Hero image intro</h1>
+				<p class="lead mb-5">
+					Pingendo is a HTML editor for everyone. Easy for newbies, useful
+					for professionals. <br>Code quality is a must. Pingendo
+					generates clean, battle-tested, modular Bootstrap 4 code.
+				</p>
+				<a href="#" class="btn btn-lg mx-1 btn-secondary">A claim here</a> <a
+					href="#" class="btn btn-lg btn-primary mx-1">Your call to
+					action</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- 메인영상
 <div class="embed-responsive embed-responsive-16by9">
 
@@ -13,22 +31,6 @@
 		allowfullscreen="1" frameborder="0" width="100%" height="100%"
 		style="pointer-events: none;"> </iframe>
 </div> -->
-
-<!-- 메인이미지(작업중) -->
-<div class="py-5 text-center opaque-overlay" style="background-image: url(&quot;https://pingendo.github.io/templates/sections/assets/cover_event.jpg&quot;);">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-12 text-white">
-          <h1 class="display-3 mb-4">Hero image intro</h1>
-          <p class="lead mb-5">Pingendo is a HTML editor for everyone. Easy for newbies, useful for professionals.
-            <br>Code quality is a must. Pingendo generates clean, battle-tested, modular Bootstrap 4 code. </p>
-          <a href="#" class="btn btn-lg mx-1 btn-secondary">A claim here</a>
-          <a href="#" class="btn btn-lg btn-primary mx-1">Your call to action</a>
-        </div>
-      </div>
-    </div>
-</div>
-
 
 
 
@@ -45,7 +47,8 @@
 
 		<div class="row">
 			<div class="col-12">
-				<div id="carouselArchitecture" class="carousel slide" data-ride="carousel">
+				<div id="carouselArchitecture" class="carousel slide"
+					data-ride="carousel">
 					<!--       <ol class="carousel-indicators">
               <li data-target="#carouselArchitecture" data-slide-to="0" class="active"><i></i></li>
               <li data-target="#carouselArchitecture" data-slide-to="1" class=""><i></i></li>
@@ -55,28 +58,28 @@
 						<div class="carousel-item">
 							<img class="d-block img-fluid"
 								src="https://pingendo.github.io/templates/sections/assets/gallery_architecture_3.jpg"
-								data-holder-rendered="true">					
-						<div class="carousel-caption">
-							<h3>홈팀 VS 어웨이팀</h3>
-							<p>경기시각안내</p>
-						</div>
+								data-holder-rendered="true">
+							<div class="carousel-caption">
+								<h3>홈팀 VS 어웨이팀</h3>
+								<p>경기시각안내</p>
+							</div>
 						</div>
 						<div class="carousel-item">
 							<img class="d-block img-fluid"
 								src="https://pingendo.github.io/templates/sections/assets/gallery_architecture_3.jpg"
-								data-holder-rendered="true">					
-						<div class="carousel-caption">
-							<h3>SK VS 한화</h3>
-							<p>경기시각안내</p>
-						</div>
+								data-holder-rendered="true">
+							<div class="carousel-caption">
+								<h3>SK VS 한화</h3>
+								<p>경기시각안내</p>
+							</div>
 						</div>
 						<div class="carousel-item active">
 							<img class="d-block img-fluid"
 								src="https://pingendo.github.io/templates/sections/assets/gallery_architecture_3.jpg"
 								data-holder-rendered="true">
 							<div class="carousel-caption">
-							<h3>두산 VS KT</h3>
-							<p>경기시각안내</p>
+								<h3>두산 VS KT</h3>
+								<p>경기시각안내</p>
 							</div>
 						</div>
 					</div>
@@ -108,33 +111,33 @@
 						<h3 class="mb-4 text-secondary">HOT루키경매</h3>
 					</div>
 				</div>
-				
-				<div class="row" style="background-color: white; border: 1px solid black;">
+
+				<div class="row"
+					style="background-color: white; border: 1px solid black;">
 					<div class="text-center col-md-12 col-6">
-								<img src="<%=root%>/img/auction/auc1.jpg" class="img-fluid">
+						<img src="<%=root%>/img/auction/auc1.jpg" class="img-fluid">
 					</div>
 					<div class="col-md-12 col-6">
 						<div class="row">
-						
-						<div class="col-md-8 col-12">
 
-							KBO 2017 공인구<br>
-							입찰자수 :22명
+							<div class="col-md-8 col-12">
 
-						</div>
-						<div class="col-md-4 col-12">
-						<span class="align-middle">70000원</span>						
-						</div>
-						
-						
+								KBO 2017 공인구<br> 입찰자수 :22명
+
+							</div>
+							<div class="col-md-4 col-12">
+								<span class="align-middle">70000원</span>
+							</div>
+
+
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
-			
+
 			<div class="py-5 col-md-9">
-			
+
 				<div class="row">
 					<div class="col-md-12">
 						<h3 class="mb-4 text-secondary">BEST물품</h3>
@@ -142,62 +145,62 @@
 				</div>
 
 				<div class="row" style="border: 1px solid black;">
-				
+
 					<div class="text-center col-md-4" style="background-color: white;">
-					
-					<div class="row">
-					
-					<div class="col-md-12 col-6">
-					<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+
+						<div class="row">
+
+							<div class="col-md-12 col-6">
+								<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+							</div>
+
+							<div class="col-md-12 col-6">
+								<h5 class="mb-3 text-primary">
+									<b>sdfsdf</b>
+								</h5>
+								<p class="my-1">sdfsdf</p>
+							</div>
+
+						</div>
 					</div>
-					
-					<div class="col-md-12 col-6">
-						<h5 class="mb-3 text-primary">
-							<b>sdfsdf</b>
-						</h5>
-						<p class="my-1">sdfsdf</p>
-					</div>
-					
-					</div>
-					</div>
-					
+
 					<div class="text-center col-md-4" style="background-color: white;">
-					
-					<div class="row">
-					
-					<div class="col-md-12 col-6">
-					<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+
+						<div class="row">
+
+							<div class="col-md-12 col-6">
+								<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+							</div>
+
+							<div class="col-md-12 col-6">
+								<h5 class="mb-3 text-primary">
+									<b>sdfsdf</b>
+								</h5>
+								<p class="my-1">sdfsdf</p>
+							</div>
+
+						</div>
 					</div>
-					
-					<div class="col-md-12 col-6">
-						<h5 class="mb-3 text-primary">
-							<b>sdfsdf</b>
-						</h5>
-						<p class="my-1">sdfsdf</p>
-					</div>
-					
-					</div>
-					</div>
-					
+
 					<div class="text-center col-md-4" style="background-color: white;">
-					
-					<div class="row">
-					
-					<div class="col-md-12 col-6">
-					<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+
+						<div class="row">
+
+							<div class="col-md-12 col-6">
+								<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+							</div>
+
+							<div class="col-md-12 col-6">
+								<h5 class="mb-3 text-primary">
+									<b>sdfsdf</b>
+								</h5>
+								<p class="my-1">sdfsdf</p>
+							</div>
+
+						</div>
 					</div>
-					
-					<div class="col-md-12 col-6">
-						<h5 class="mb-3 text-primary">
-							<b>sdfsdf</b>
-						</h5>
-						<p class="my-1">sdfsdf</p>
-					</div>
-					
-					</div>
-					</div>
-					
-					
+
+
 				</div>
 			</div>
 		</div>
@@ -401,7 +404,8 @@
 				</a>
 			</div>
 			<div class="p-0 col-md-1 col-12 text-center">
-				<a href="#"> <img src="<%=root%>/img/gudan/emblem/emblem-samsung.png"
+				<a href="#"> <img
+					src="<%=root%>/img/gudan/emblem/emblem-samsung.png"
 					class="img-fluid">
 				</a>
 			</div>
