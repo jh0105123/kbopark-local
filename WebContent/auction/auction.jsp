@@ -34,26 +34,30 @@
 						class="list-group-item d-flex justify-content-between align-items-center">
 						기타잡화 <span class="badge badge-primary badge-pill">1</span>
 					</li>
+					<li
+						class="bg-pingendo list-group-item d-flex justify-content-between align-items-center">
+						<span class="text-center" style="color: white; width:100%;">내물품 등록하기</span>
+					</li>
 				</ul>
-
-
 			</div>
+			
+			<!-- 이미지크기 꽉차게 맞춰야함..ㅠㅠㅠㅠ atl노란오류는 무시ㄱㄱ-->
 			<div class="col-md-9 p-0">
 				<div id="carousel1" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner" role="listbox">
 						<div class="carousel-item">
-							<img src="<%=root%>/img/auction/carousel/auction-carousel1.jpg" atl="first slide" style="max-height: 326px;" class="d-block img-fluid w-100">
+							<img src="<%=root%>/img/auction/carousel/auction-carousel1.jpg" atl="first slide" style="max-height: 391px;" class="d-block img-fluid w-100">
 						</div>
 						<div class="carousel-item">
 							<img class="d-block img-fluid w-100"
 								src="<%=root%>/img/auction/carousel/auction-carousel1.jpg"
 								data-holder-rendered="true"
-								style="max-height: 326px;">
+								style="max-height: 391px;">
 						</div>
 						<div class="carousel-item active">
 							<img class="d-block img-fluid w-100"
 								src="<%=root%>/img/auction/carousel/auction-carousel2.jpg"
-								style="max-height: 326px;" data-holder-rendered="true">
+								style="max-height: 391px;" data-holder-rendered="true">
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carousel1" role="button"
