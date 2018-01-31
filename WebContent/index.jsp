@@ -36,14 +36,14 @@
 
 							<div class="col-md-12 text-white p-2"
 								style="background-color: rgba(50, 50, 50, 0.75);">
-								<span class="px-3 border-r">인천</span><span class="px-3">17:00</span>
+								<span class="px-3 border-r">마산야구장</span><span class="px-3">18:30</span>
 							</div>
 
 							<div class="col-md-12 opaque-overlay py-2 px-3">
 								<div class="row">
 									<div class="col-md-5 p-0 col-12" style="text-align: left;">
-										<img src="<%=root%>/img/gudan/emblem/emblem-sk.png"
-											class="img-thumbnail"><label>SK 와이번즈</label>
+										<img src="<%=root%>/img/gudan/emblem/emblem-nc.png"
+											class="img-thumbnail"><label>NC 다이노스</label>
 									</div>
 									<div class="col-md-2 p-0 col-12 align-self-center">
 										<h2 class="m-0">
@@ -51,8 +51,8 @@
 										</h2>
 									</div>
 									<div class="col-md-5 p-0 col-12" style="text-align: right;">
-										<label>KT 위즈</label><img
-											src="<%=root%>/img/gudan/emblem/emblem-hanwha.png"
+										<label>SK 와이번스</label><img
+											src="<%=root%>/img/gudan/emblem/emblem-sk.png"
 											class="img-thumbnail">
 									</div>
 								</div>
@@ -209,7 +209,7 @@
 							<h3 class="mb-4 text-secondary">HOT루키경매</h3>
 						</div>
 					</div>
-					<div class="row box px-2 text-center"
+					<div class="row box px-2 py-3 text-center"
 						style="background-color: white;">
 						<div class="col-md-12 col-6 align-self-center">
 							<img src="<%=root%>/img/auction/auc1.jpg" class="img-fluid">
@@ -218,7 +218,8 @@
 							<p class="mb-2">
 								<strong>KBO 2017 공인구</strong><br> 입찰자수 : 22명
 							</p>
-							<p style="color: red;">
+							<p class="mb-0" style="color: red;">
+							
 								<strong>70,000원</strong>
 							</p>
 						</div>
@@ -235,15 +236,15 @@
 					<div class="row">
 						<div class="text-center col-md-4 box"
 							style="background-color: white;">
-							<div class="row px-2">
+							<div class="row py-3 px-2">
 								<div class="col-md-12 col-6 align-self-center">
 									<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
 								</div>
 								<div class="col-md-12 col-6 align-self-center">
 									<p class="mb-2">
-										<strong>KBO 팀코리아 중 아대1</strong><br> 입찰자수 : 31명
+										<strong>KBO 팀코리아 중 아대</strong><br> 입찰자수 : 31명
 									</p>
-									<p>
+									<p class="mb-0">
 										<strong>5,000원</strong>
 									</p>
 								</div>
@@ -251,32 +252,32 @@
 						</div>
 						<div class="text-center col-md-4 box"
 							style="background-color: white;">
-							<div class="row px-2">
+							<div class="row py-3 px-2">
 								<div class="col-md-12 col-6 align-self-center">
-									<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+									<img src="<%=root%>/img/auction/cap.jpg" class="img-fluid">
 								</div>
 								<div class="col-md-12 col-6 align-self-center">
 									<p class="mb-2">
-										<strong>KBO 팀코리아 중 아대2</strong><br> 입찰자수 : 202명
+										<strong>자이언츠 클래식 로고 볼캡</strong><br> 입찰자수 : 202명
 									</p>
-									<p>
-										<strong>5,000원</strong>
+									<p class="mb-0">
+										<strong>20,000원</strong>
 									</p>
 								</div>
 							</div>
 						</div>
 						<div class="text-center col-md-4 box"
 							style="background-color: white;">
-							<div class="row px-2">
+							<div class="row py-3 px-2">
 								<div class="col-md-12 col-6 align-self-center">
-									<img src="<%=root%>/img/auction/auc2.jpg" class="img-fluid">
+									<img src="<%=root%>/img/auction/nametag.jpg" class="img-fluid">
 								</div>
 								<div class="col-md-12 col-6 align-self-center">
 									<p class="mb-2">
-										<strong>KBO 팀코리아 중 아대3</strong><br> 입찰자수 : 98명
+										<strong>KBO KOREA 네임텍</strong><br> 입찰자수 : 3명
 									</p>
-									<p>
-										<strong>100,000원</strong>
+									<p class="mb-0">
+										<strong>2,000원</strong>
 									</p>
 								</div>
 							</div>
